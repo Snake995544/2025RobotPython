@@ -139,3 +139,6 @@ class AutoConstants:
     kThetaControllerConstraints = TrapezoidProfileRadians.Constraints(
         kMaxAngularSpeedRadiansPerSecond, kMaxAngularSpeedRadiansPerSecondSquared
     )
+class CameraConstants:
+    cameraFront = 0
+    cameraBack = 1
